@@ -18,13 +18,13 @@ A simple and lightweight custom React hook to detect browser online and offline 
 If published to npm:
 
 ```bash
-npm install use-online
+npm install use-online-checking
 ```
 
 Or clone the repository:
 
 ```bash
-git clone https://github.com/your-username/use-online.git
+git clone https://github.com/Prem-Ray/use-online-checking.git
 ```
 
 ---
@@ -32,7 +32,7 @@ git clone https://github.com/your-username/use-online.git
 ## 🚀 Usage
 
 ```jsx
-import useOnline from "use-online";
+import useOnline from "use-online-checking";
 
 function App() {
   const isOnline = useOnline();
