@@ -1,4 +1,4 @@
-# useOnline
+# use-online-checking
 
 A lightweight React hook to detect internet connection status (online/offline) in real-time.
 
@@ -12,21 +12,22 @@ This hook helps React developers easily track browser network status changes.
 - ⚡ Real-time network status detection
 - 🔄 Automatic event listener cleanup
 - 🧠 Easy to use in any React project
+- ✅ TypeScript support included
 
 ---
 
 ## 📦 Installation
 
-If published to npm:
-
 ```bash
 npm install use-online-checking
 ```
 
-Or clone the repository:
+---
 
-```bash
-git clone https://github.com/Prem-Ray/use-online-checking.git
+## 📥 Import
+
+```js
+import useOnline from "use-online-checking";
 ```
 
 ---
@@ -68,30 +69,36 @@ When the network status changes, the state updates automatically.
 
 ## 📌 API
 
-### `useOnline()`
+### `useOnline(): boolean`
 
 Returns:
 
-| Name      | Type    | Description                     |
-|-----------|---------|---------------------------------|
-| isOnline  | boolean | Current internet connection status |
+| Name     | Type    | Description                          |
+|----------|---------|--------------------------------------|
+| isOnline | boolean | Current internet connection status   |
 
 ---
 
-## 📁 Project Structure
+## 📁 Package Structure
 
 ```
-use-online/
+use-online-checking/
 │
 ├── src/
-│   ├── useOnline.js
-│   ├── App.jsx
-│   ├── main.jsx
+│   └── useOnline.js
 │
+├── index.js
+├── index.d.ts
 ├── package.json
 ├── README.md
-└── vite.config.js
+└── LICENSE
 ```
+
+---
+
+## 🛠 Requirements
+
+- React 16.8 or higher (Hooks support)
 
 ---
 
